@@ -3,7 +3,7 @@
    $(window).scroll(function(){
     if ($(this).scrollTop() > 350) {
        $('.icon-bar').addClass('opaque');
-       $('.navbar-brand img').attr('src', 'img/logo-light.png');
+       $('.navbar-brand img').attr('src', 'img/logo-light.svg');
     } else {
        $('.icon-bar').removeClass('opaque');
        $('.navbar-brand img').attr('src', 'img/logo.svg');
